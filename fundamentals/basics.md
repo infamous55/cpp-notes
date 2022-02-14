@@ -94,15 +94,15 @@ Converting from one data type from another is called type conversion. In C++, ty
 #include <iostream>
 
 int main() {
-   int num_int = 9;
-   double num_double;
+  int num_int = 9;
+  double num_double;
 
-   num_double = num_int;
+  num_double = num_int;
 
-   std::cout << "num_int = " << num_int << std::endl;
-   std::cout << "num_double = " << num_double << std::endl;
+  std::cout << "num_int = " << num_int << std::endl;
+  std::cout << "num_double = " << num_double << std::endl;
 
-   return 0;
+  return 0;
 }
 
 ```
@@ -118,16 +118,16 @@ The syntax for function-style casting is `data_type(expression);`.
 #include <iostream>
 
 int main() {
-    double num_double = 3.56;
-    std::cout << "num_double = " << num_double << std::endl;
+  double num_double = 3.56;
+  std::cout << "num_double = " << num_double << std::endl;
 
-    int num_int1 = (int)num_double;
-    std::cout << "num_int1 = " << num_int1 << std::endl;
+  int num_int1 = (int)num_double;
+  std::cout << "num_int1 = " << num_int1 << std::endl;
 
-    int num_int2 = int(num_double);
-    std::cout << "num_int2 = " << num_int2 << std::endl;
+  int num_int2 = int(num_double);
+  std::cout << "num_int2 = " << num_int2 << std::endl;
 
-    return 0;
+  return 0;
 }
 
 ```
