@@ -38,10 +38,10 @@ The values passed are known as arguments. They represent the actual input values
 ```cpp
 
 void display(char c = '*', int count = 3) {
-    for (int i = 1; i <= count; ++i) {
-        std::cout << c;
-    }
-    std::cout << std::endl;
+  for (int i = 1; i <= count; ++i) {
+    std::cout << c;
+  }
+  std::cout << std::endl;
 }
 
 ```
@@ -99,10 +99,10 @@ The `&` operator is used to indicate that a parameter is passed by reference, so
 ```cpp
 
 void swap(int& x, int& y) {
-    int aux;
-    aux = x;
-    x = y;
-    y = aux;
+  int aux;
+  aux = x;
+  x = y;
+  y = aux;
 }
 
 ```
