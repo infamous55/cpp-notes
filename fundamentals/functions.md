@@ -46,19 +46,18 @@ void display(char c = '*', int count = 3) {
 
 ```
 
+### Scope
+
+The scope is the region of code that can access or view a given element:
+
+- Variables defined in global scope are accessible throughout the program.
+- Variables defined in a function have local scope and are only accessible inside the function.
+
 ### Return
 
 The `return` statement can be used to return a value from a function. It terminates the function, so any code after `return` won't run.
 
 The data type of the returned value must match the declared function type. When there is no value returned, the `void` type is used.
-
-### Scope
-
-The scope is the region of code that can access or view a given element:
-
-Variables defined in global scope are accessible throughout the program.
-
-Variables defined in a function have local scope and are only accessible inside the function.
 
 ### Overloading
 
