@@ -179,14 +179,14 @@ bool descending_compare(int a, int b) {
 }
 
 void custom_sort(vector<int>& numbers_vector, bool(*compare_function_ptr)(int, int)) {
-	for (int start_index = 0; start_index < numbers_vector.size(); start_index++) {
-		int best_index = start_index;
-		for (int current_index = start_index + 1; current_index < numbers_vector.size(); current_index++) {
-			if (compare_function_ptr(numbers_vector[current_index], numbers_vector[best_index]))
-		    best_index = current_index;
-		}
-		swap(numbers_vector[start_index], numbers_vector[best_index]);
-	}
+  for (int start_index = 0; start_index < numbers_vector.size(); start_index++) {
+    int best_index = start_index;
+    for (int current_index = start_index + 1; current_index < numbers_vector.size(); current_index++) {
+      if (compare_function_ptr(numbers_vector[current_index], numbers_vector[best_index]))
+        best_index = current_index;
+    }
+    swap(numbers_vector[start_index], numbers_vector[best_index]);
+  }
 }
 
 void print_numbers(vector<int>& numbers_vector) {
