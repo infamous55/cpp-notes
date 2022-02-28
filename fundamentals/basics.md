@@ -37,7 +37,7 @@ The table below shows the fundamental data types, their meaning, and their sizes
 
 ### Type Modifiers
 
-The data types `int`, `double`, `char` can be modified using type modifiers. There are 4 type modifiers in C++. They are:
+The data types `int`, `double`, and `char` can be modified by using type modifiers. There are 4 type modifiers in C++. They are:
 
 - `signed`
 - `unsigned`
@@ -64,7 +64,7 @@ The table below shows the modified data types, their sizes, and their meaning:
 
 ### Input and Output
 
-To access input and output the `iostream` header file must be included at the beginning of the program. The `std::cout` object is used together with `<<` operator to print to the terminal, and `std::cin` is used together with `>>` to read user input. The `std::endl` object or the `\n` character can be used to insert a new line.
+To access input and output, the `iostream` header file must be included at the beginning of the program. The `std::cout` object is used together with `<<` operator to print to the terminal, and `std::cin` is used together with `>>` to read user input. The `std::endl` object or the `\n` character can be used to insert a new line.
 
 ```cpp
 

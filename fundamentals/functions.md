@@ -10,7 +10,7 @@ The declaration includes the return type, the function name, and the parameters.
 
 The definition is the body of the function which containes the code that executes at call. It is common to store function definitions in a separate `.cpp` file. If the file containing the `main()` function needs to be recompiled, it is not necessary to recompile the other files.
 
-A function can be called by specifying its name followed by a pair of parentheses `()`.
+A function can be called by specifying its name followed by a pair of parentheses `()` which contain the given arguments.
 
 ```cpp
 
@@ -33,7 +33,7 @@ void print(int x) {
 
 Parameters are placeholders for values passed to the function. They act as variables inside the function.
 
-The values passed are known as arguments. They represent the actual input values. Default arguments can be added to function declarations so that it is possible to call the function without including those arguments. If those arguments are included the default value is overwritten.
+The values passed are known as arguments. They represent the actual input values. Default arguments can be added to function declarations so that it is possible to call the function without including those arguments. If those arguments are included, the default value is overwritten.
 
 ```cpp
 
@@ -52,6 +52,8 @@ The scope is the region of code that can access or view a given element:
 
 - Variables defined in global scope are accessible throughout the program.
 - Variables defined in a function have local scope and are only accessible inside the function.
+
+Additional scopes can be created by wrapping a block of code in curly braces `{}`.
 
 ### Return
 

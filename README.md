@@ -9,3 +9,4 @@ This repository contains my personal notes on the C++ programming language.
 3. [Control Flow](./fundamentals/control_flow.md)
 4. [Functions](./fundamentals/functions.md)
 5. [Object-Oriented Programming](./fundamentals/oop.md)
+6. [Pointers](./fundamentals/pointers.md)
