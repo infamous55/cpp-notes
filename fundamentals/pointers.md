@@ -191,14 +191,14 @@ void custom_sort(vector<int>& numbers_vector, bool(*compare_function_ptr)(int, i
 
 void print_numbers(vector<int>& numbers_vector) {
   for (int i = 0; i < numbers_vector.size(); i++)
-		cout << numbers_vector[i] << ' ';
+	  cout << numbers_vector[i] << ' ';
 }
 
 int main() {
   vector<int> numbers_vector = {4, 2, 1, 3, 6, 5};
-	bool (*func_ptr)(int, int) = descending_compare;
-	custom_sort(numbers_vector, func_ptr);
-	print_numbers(numbers_vector);
+  bool (*func_ptr)(int, int) = descending_compare;
+  custom_sort(numbers_vector, func_ptr);
+  print_numbers(numbers_vector);
 
   return 0;
 }
