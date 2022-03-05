@@ -191,7 +191,7 @@ void custom_sort(vector<int>& numbers_vector, bool(*compare_function_ptr)(int, i
 
 void print_numbers(vector<int>& numbers_vector) {
   for (int i = 0; i < numbers_vector.size(); i++)
-	  cout << numbers_vector[i] << ' ';
+    cout << numbers_vector[i] << ' ';
 }
 
 int main() {
