@@ -201,7 +201,7 @@ _Return value_:
 
 If the character is found, the `strchr()` function returns a pointer to the location of the character in `str`, otherwise returns the `NULL` pointer.
 
-5. `strstr()` finds the first occurrence of a substring in a c-string.
+5. `strstr()` finds the first occurrence of a substring in a C-string.
 
 _Prototype_:
 
