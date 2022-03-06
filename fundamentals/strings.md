@@ -349,7 +349,7 @@ int main() {
 
 ### String Objects
 
-String objects are instances of the `string` class from the `<string>` library. Unlike C-strings, they're size is dynamic.
+String objects are instances of the `string` class from the `<string>` library. Unlike C-strings, their size is dynamic.
 
 ```cpp
 
