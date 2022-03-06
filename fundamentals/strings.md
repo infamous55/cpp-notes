@@ -385,4 +385,4 @@ int main() {
 
 ### Useful Functions For Working With Strings
 
-A comprehensive list of methods belonging to a string object can be found [here](https://www.cplusplus.com/reference/string/string/).
+A comprehensive list of methods belonging to the string class can be found [here](https://www.cplusplus.com/reference/string/string/).
