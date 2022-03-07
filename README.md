@@ -11,3 +11,4 @@ This repository contains my personal notes on the C++ programming language.
 5. [Object-Oriented Programming](./fundamentals/oop.md)
 6. [Pointers](./fundamentals/pointers.md)
 7. [Strings](./fundamentals/strings.md)
+8. [Miscellaneous](./fundamentals/miscellaneous.md)
