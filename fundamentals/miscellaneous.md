@@ -73,10 +73,10 @@ int main() {
   try {
     throw d;
   }
-  catch(Base b) {
+  catch (Base b) {
     std::cout << "Caught Base Exception";
   }
-  catch(Derived d) {
+  catch (Derived d) {
     // This catch block is NEVER executed
     std::cout << "Caught Derived Exception";
   }
